@@ -1,0 +1,50 @@
+@media(max-width: 500px){
+  .navbar h1{
+    display: none;
+  }
+
+  .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .title{
+    padding-top: 2rem;
+    text-align: center;
+    height: 100vh;
+  }
+
+  .title #intro{
+    display: none;
+  }
+
+
+  .flex{
+    display: block;
+  }
+
+  .who{
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .text{
+    width: auto;
+  }
+
+  .flex2{
+    display: block;
+    flex-direction: column;
+    justify-content: right;
+    align-items: stretch;
+  }
+
+  .text2{
+    /* display: block; */
+    width: 100%;
+    padding-right: 0;
+    text-align: right;
+  }
+}
